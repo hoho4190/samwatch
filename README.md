@@ -1,3 +1,9 @@
+# Additions and fixes
+
+- add py extension
+- Refer to the template.yaml file and Compare with build file using resource name and CodeUri value
+
+
 # samwatch
 
 samwatch is a tool based in nodemon that helps you monitor and transport your changes from your source tree structure to the .sam-build tree structure while developing with AWS SAM. 
@@ -13,7 +19,7 @@ This behavior can reduce the use of "sam build" from every time you make a chang
 Either through cloning with git or by using [npm](http://npmjs.org) (the recommended way):
 
 ```bash
-npm install samwatch -g
+npm install -g github:hoho4190/samwatch
 ```
 
 # Usage
@@ -44,3 +50,7 @@ Running samwatch, saving the modified file, sam-build folder gets updated.
 # License
 
 MIT [http://rem.mit-license.org](http://rem.mit-license.org)
+
+# Forked from
+
+[mxitgo/samwatch](https://github.com/mxitgo/samwatch)
