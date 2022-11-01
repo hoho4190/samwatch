@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.0",
+    "js-yaml": "^4.1.0",
     "nodemon": "^2.0.4"
   },
   "version": "0.0.24-development"
